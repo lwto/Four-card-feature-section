@@ -17,6 +17,7 @@ h1{
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: center;
+    letter-spacing: 1px;
 }
 h1:first-child{
     font-weight: 200;
@@ -52,9 +53,8 @@ h1:nth-child(2){
     margin-bottom: 1rem;
 }
 .cards{
-
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
     justify-content: center;
     align-items: center;   
     margin:0 2rem;
@@ -62,7 +62,7 @@ h1:nth-child(2){
 .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: left;   
     margin: 0 2rem 2rem;
@@ -97,5 +97,14 @@ h1:nth-child(2){
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 2rem;
+    }
+    .header-content{
+        max-width: 500px;
+    }
+    
+}
 
 
