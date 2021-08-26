@@ -1,0 +1,98 @@
+html{
+    font-size: 15px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(229, 6%, 66%);
+}
+h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+h1:first-child{
+    font-weight: 200;
+}
+h1,h2,.footer{
+    color:hsl(234, 12%, 34%);
+}
+h2{
+    font-size: 1.35rem;
+}
+img{
+    width:50px;  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-content{
+    max-width: 400px;   
+}
+header p{
+    text-align: center;
+
+}
+header{
+    margin:3rem 2rem;
+}
+h1:nth-child(2){
+    margin-bottom: 1rem;
+}
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    margin:0 2rem;
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;   
+    margin: 0 2rem 2rem;
+    max-width: 320px;
+    border-radius: 5px;
+    background-color: white;
+}
+.card .content{
+    padding: 1.5rem 2rem;
+}
+.card p{
+    padding: 1rem 0 2rem 0;
+}
+.card-img{
+    width:100%;
+    text-align: end;
+}
+.footer{
+    text-align: center;
+    padding:6px;
+}
+.card1{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card4{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+
+
